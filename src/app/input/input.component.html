@@ -1,0 +1,6 @@
+<input type="text" id="text" [(ngModel)]="text">
+<button id="add" (click) = "aggiungi()">+</button>
+<ul>
+  <li *ngFor="let item of arr">{{item.title}}<button (click) = "cancella(item)">*</button></li>
+</ul>
+

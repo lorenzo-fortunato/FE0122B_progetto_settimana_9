@@ -1,0 +1,23 @@
+<nav>
+  <div >
+    <ul id="container">
+      <li>
+        <a
+          aria-current="page"
+          [routerLink]="['/']"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >ToDo</a
+        >
+      </li>
+      <li>
+        <a
+          aria-current="page"
+          [routerLink]="['/completed']"
+          routerLinkActive="active"
+          >Completed</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
